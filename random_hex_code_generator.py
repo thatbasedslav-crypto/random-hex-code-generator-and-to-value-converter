@@ -40,6 +40,16 @@ while True:
     vr8 = texthexdict[hr8]
     hr9 = random.choice(list(texthexdict.keys()))
     vr9 = texthexdict[hr9]
+    hr10 = random.choice(list(texthexdict.keys()))
+    vr10 = texthexdict[hr10]
+    hr11 = random.choice(list(texthexdict.keys()))
+    vr11 = texthexdict[hr11]
+    hr12 = random.choice(list(texthexdict.keys()))
+    vr12 = texthexdict[hr12]
+    hr13 = random.choice(list(texthexdict.keys()))
+    vr13 = texthexdict[hr13]
+    hr14 = random.choice(list(texthexdict.keys()))
+    vr14 = texthexdict[hr14]
     print(f"\rHEX: {hr0}"
           f"{hr1}"
           f"{hr2}"
@@ -49,7 +59,12 @@ while True:
           f"{hr6}"
           f"{hr7}"
           f"{hr8}"
-          f"{hr9},  "
+          f"{hr9}"
+          f"{hr10}"
+          f"{hr11}"
+          f"{hr12}"
+          f"{hr13}"
+          f"{hr14},  "
           f" VALUE: {vr0}"
           f"{vr1}"
           f"{vr2}"
@@ -59,5 +74,10 @@ while True:
           f"{vr6}"
           f"{vr7}"
           f"{vr8}"
-          f"{vr9}", end="")
+          f"{vr9}"
+          f"{vr10}"
+          f"{vr11}"
+          f"{vr12}"
+          f"{vr13}"
+          f"{vr14}", end="")
     time.sleep(speed)
